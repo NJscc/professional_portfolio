@@ -1,22 +1,103 @@
+/* Used to store common colors for color scheme */
+:root {
+
+}
+
 body {
     display: flex;
     flex-direction: column;
-    line-height: 1.3;
+    background-color:aquamarine;
   }
+
   
 header {
+    border-radius: 15px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
+    background-color:blue;
+    color: white;
+}
+
+header a{
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  display: flex;
+}
+
+/* Adjust heading fonts */
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 45px;
+}
   
-  /* Change font size of headings */
+h3{
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  background-color:blue;
+}
+
+/* Alter formatting of each unique section */
+section {
+  border-radius: 15px;
+}
+
+/* 'About Me' Section */
+#about_me {
+  background-color:yellow;
+}
+
+#about_me p {
+  font-size: 22px;
+}
+
+/* 'Work' Section */
+#work {
+  background-color:red;
+}
+
+/* 'Contact Me' Section */
+#contact_me {
+  background-color:pink;
+  display: flex;
+  flex-grow: 1;
+  justify-content: left;
+  align-items: center;
+}
+
+#contact_me a {
+  font-size: 28px;
+  color: black;
+}
 
 
-  
+/* Format largest display card */
+.card_primary{
+  border-radius: 15px;
+  background-color:green;
+}
 
-
-  /* Boxes for project links */
-  .card {
-
-  }
+/* Format other display cards */
+.card {
+  border-radius: 15px;
+  background-color:purple;
+}

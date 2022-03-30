@@ -13,7 +13,7 @@ The site created by this repository creates a portfolio page, showcasing assignm
 
 -rough code description
 
--LINK-
+-LINK- https://njscc.github.io/professional_portfolio/ 
 
 -SCREENSHOT-
 
