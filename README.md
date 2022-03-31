@@ -1,55 +1,38 @@
 # professional_portfolio
-The site created by this repository creates a portfolio page, showcasing assignments completed for this certification course.
+The site created by this repository creates a portfolio page, showcasing placeholders for assignments completed for this certification course.
 
 -Description-
 
-    *site links at top
-    *broken into ABOUT, WORK, and CONTACT ME
-    *work tabs have title boxes, with backgroud images and highlight on mouseover
-    *Work section has large, dominant box, underscored by smaller ones
-    *Bottom CONTACT section has phone number, github account link, and applicable social media
+    The repository files now generate a crude portfolio website.
+    When in use, the site has a header section with links to the
+    'About Me', 'Work', and 'Contact Me' sections.
+    Following this, the 'About Me' section has a brief summary bit about myself.
+    Lower down, the 'Work' section contains a large primary display block, as a placeholder
+    for a potential project link. Below it, there are four more smaller blocks distributed
+    equally and evenly across the page.
+    All blocks have a slight orange glow when hovering the mouse cursor over them, and currently
+    hold empty links which could be filled with potential projects.
+    Finally, at the bottom of the page is a 'Contact Me' section with my phone number and a
+    link to my GitHub account.
 
--site layout
+-Known Flaws-
+    -The site colors were intended as placeholders to aid in visualizing the 
+    content when building up the site.
+    -The CSS file does not currently have any code for different screens. (@ media screen)
+    -The 'glowing' effect when hovering the mouse over the block elements needs to be refined.
+    -The titles and descriptions of block elements need to overlay their images. They currently do not.
+    -There are no variables to hold, for example, colors for a potential cohesive color scheme to use
+    across the webpage.
 
--rough code description
-
+-Code Description-
+    Currently, the CSS file is roughly organized by addressing classes in the order they are shown on the
+    website, with elements addressing the header closer to the top, and elements addressing the 'Contact Me'
+    section closer to the bottom. The comments provided roughly break down the different sections of code
+    addressing larger overall grouped elements, such as all of the 'Work' blocks, all of the page header elements,
+    etc.
+    
 -LINK- https://njscc.github.io/professional_portfolio/ 
 
 -SCREENSHOT-
 
-**NOTE - USE SOME PLACEHOLDERS TO DECORATE SITE
-
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-
-Application deployed at live URL.
-
-Application loads with no errors.
-
-Application GitHub URL submitted.
-
-GitHub repository contains application code.
-
-Application Quality: 15%
-Application resembles the mock-up functionality provided in the homework instructions.
-Repository Quality: 13%
-Repository has a unique name.
-
-Repository follows best practices for file structure and naming conventions.
-
-Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-Repository contains multiple descriptive commit messages.
-
-Repository contains quality readme with description, screenshot, link to deployed application.
+<img src="./assets/screenshot_portfolio.png">

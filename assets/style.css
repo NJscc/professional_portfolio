@@ -1,7 +1,4 @@
 /* Used to store common colors for color scheme */
-:root {
-
-}
 
 body {
     display: flex;
@@ -9,7 +6,7 @@ body {
     background-color:aquamarine;
   }
 
-  
+/* Header elements */
 header {
     border-radius: 15px;
     display: flex;
@@ -24,28 +21,57 @@ header a{
   color: white;
 }
 
+nav {
+  display: flex;
+  margin: 30px;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   font-size: 30px;
   display: flex;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  padding: 0 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex: 0 1;
+}
+
+/* Classes for managing images within the 'Work' section. */
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img{
+  max-width: 90%;
+  border-radius: 30px;
+  padding-bottom: 20px;
 }
 
 /* Adjust heading fonts */
 h1 {
   font-size: 60px;
+  margin: 0 1%;
+  display: flex;
 }
 
 h2 {
   font-size: 45px;
+  padding-left: 20px;
 }
   
-h3{
-  font-size: 28px;
-}
-
-h4 {
-  font-size: 18px;
+h3 {
+  font-size: 35px;
+  padding-left: 15px;
 }
 
 li {
@@ -56,28 +82,38 @@ footer {
   background-color:blue;
 }
 
-/* Alter formatting of each unique section */
+/* Alter formatting of all sections */
 section {
   border-radius: 15px;
 }
 
 /* 'About Me' Section */
+#about_me h2 {
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
 #about_me {
   background-color:yellow;
 }
 
 #about_me p {
   font-size: 22px;
+  padding: 0 20px;
+  padding-bottom: 15px;
 }
 
 /* 'Work' Section */
 #work {
   background-color:red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* 'Contact Me' Section */
 #contact_me {
-  background-color:pink;
+  background-color:lightgreen;
   display: flex;
   flex-grow: 1;
   justify-content: left;
@@ -85,19 +121,51 @@ section {
 }
 
 #contact_me a {
+  font-weight: bold;
   font-size: 28px;
   color: black;
+  padding: 0 25px;
 }
 
+#contact_me p {
+  font-weight: bold;
+  font-size: 28px;
+  color: black;
+  padding: 0 25px;
+}
 
 /* Format largest display card */
 .card_primary{
+  color: white;
   border-radius: 15px;
   background-color:green;
+  width: 100%;
+  margin: 20px;
+}
+.card_primary p {
+  padding-left: 20px;
+  font-size: 25px;
 }
 
 /* Format other display cards */
 .card {
+  color: white;
   border-radius: 15px;
   background-color:purple;
+  flex: 1 1 40%;
+  margin: 20px;
 }
+
+.card p{
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+/* Hover Effects */
+
+.card_primary:hover,
+.card:hover {
+  box-shadow: inset 0px 0px 8px orange, 0 0 15px orange;
+}
+
+/* Screen size handling */
