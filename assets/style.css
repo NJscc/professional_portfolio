@@ -3,22 +3,23 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color:aquamarine;
+    background-color:rgb(19, 6, 93);
   }
 
 /* Header elements */
 header {
-    border-radius: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color:blue;
-    color: white;
+  margin-top: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(75, 75, 244);
+  color: black;
 }
 
-header a{
-  color: white;
+header a {
+  color: black;
 }
 
 nav {
@@ -65,13 +66,14 @@ h1 {
 }
 
 h2 {
-  font-size: 45px;
-  padding-left: 20px;
+  font-size: 60px;
+  padding-left: 40px;
 }
   
 h3 {
   font-size: 35px;
   padding-left: 15px;
+  color: black;
 }
 
 li {
@@ -94,7 +96,7 @@ section {
 }
 
 #about_me {
-  background-color:yellow;
+  background-color:rgb(17, 216, 242);
 }
 
 #about_me p {
@@ -105,7 +107,7 @@ section {
 
 /* 'Work' Section */
 #work {
-  background-color:red;
+  background-color:rgb(48, 197, 68);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -149,7 +151,8 @@ section {
 
 /* Format other display cards */
 .card {
-  color: white;
+  text-decoration: none;
+  color: black;
   border-radius: 15px;
   background-color:purple;
   flex: 1 1 40%;
@@ -159,6 +162,10 @@ section {
 .card p{
   padding-left: 20px;
   font-size: 25px;
+}
+
+.card_description {
+
 }
 
 /* Hover Effects */
